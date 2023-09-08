@@ -6,13 +6,20 @@
 //
 
 import UIKit
+import Combine
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = .systemBackground
+        
+        exampleAssignTo()
+        
     }
+        
+
 
 
 }
