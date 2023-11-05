@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040CD8592ADF649200C6CE39 /* ViewControllerFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CD8582ADF649200C6CE39 /* ViewControllerFilter.swift */; };
+		040CD85B2AE0BFB800C6CE39 /* ViewControllerCombineOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CD85A2AE0BFB800C6CE39 /* ViewControllerCombineOperator.swift */; };
+		041AD63D2AF38D5C00D62F6F /* VCSequenceOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AD63C2AF38D5C00D62F6F /* VCSequenceOperators.swift */; };
+		0427F0AB2ADEAE88002916FD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427F0AA2ADEAE88002916FD /* Common.swift */; };
 		0489FCE22AAADE5E00257372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489FCE12AAADE5E00257372 /* AppDelegate.swift */; };
 		0489FCE42AAADE5E00257372 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489FCE32AAADE5E00257372 /* SceneDelegate.swift */; };
 		0489FCE62AAADE5E00257372 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489FCE52AAADE5E00257372 /* ViewController.swift */; };
@@ -14,9 +18,16 @@
 		0489FCEB2AAADE6000257372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0489FCEA2AAADE6000257372 /* Assets.xcassets */; };
 		0489FCEE2AAADE6000257372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0489FCEC2AAADE6000257372 /* LaunchScreen.storyboard */; };
 		0489FCFB2AAAF08100257372 /* ViewControllerCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489FCFA2AAAF08100257372 /* ViewControllerCombine.swift */; };
+		04B050472ABAA32C001B3C85 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B050462ABAA32C001B3C85 /* MainModel.swift */; };
+		04B050492ABB2B84001B3C85 /* ChallengeConstent02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B050482ABB2B84001B3C85 /* ChallengeConstent02.swift */; };
+		04BE76CD2ABD2FE0003753CE /* ViewControllerOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE76CC2ABD2FE0003753CE /* ViewControllerOperator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040CD8582ADF649200C6CE39 /* ViewControllerFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFilter.swift; sourceTree = "<group>"; };
+		040CD85A2AE0BFB800C6CE39 /* ViewControllerCombineOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCombineOperator.swift; sourceTree = "<group>"; };
+		041AD63C2AF38D5C00D62F6F /* VCSequenceOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCSequenceOperators.swift; sourceTree = "<group>"; };
+		0427F0AA2ADEAE88002916FD /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		0489FCDE2AAADE5E00257372 /* SwiftCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0489FCE12AAADE5E00257372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0489FCE32AAADE5E00257372 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +37,9 @@
 		0489FCED2AAADE6000257372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0489FCEF2AAADE6000257372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0489FCFA2AAAF08100257372 /* ViewControllerCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCombine.swift; sourceTree = "<group>"; };
+		04B050462ABAA32C001B3C85 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		04B050482ABB2B84001B3C85 /* ChallengeConstent02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeConstent02.swift; sourceTree = "<group>"; };
+		04BE76CC2ABD2FE0003753CE /* ViewControllerOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerOperator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +89,9 @@
 		0489FCF52AAADE7200257372 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0427F0AA2ADEAE88002916FD /* Common.swift */,
+				04B050462ABAA32C001B3C85 /* MainModel.swift */,
+				04B050482ABB2B84001B3C85 /* ChallengeConstent02.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -98,6 +115,10 @@
 			children = (
 				0489FCE52AAADE5E00257372 /* ViewController.swift */,
 				0489FCFA2AAAF08100257372 /* ViewControllerCombine.swift */,
+				04BE76CC2ABD2FE0003753CE /* ViewControllerOperator.swift */,
+				040CD8582ADF649200C6CE39 /* ViewControllerFilter.swift */,
+				040CD85A2AE0BFB800C6CE39 /* ViewControllerCombineOperator.swift */,
+				041AD63C2AF38D5C00D62F6F /* VCSequenceOperators.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -173,9 +194,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0427F0AB2ADEAE88002916FD /* Common.swift in Sources */,
+				041AD63D2AF38D5C00D62F6F /* VCSequenceOperators.swift in Sources */,
 				0489FCE62AAADE5E00257372 /* ViewController.swift in Sources */,
+				04B050492ABB2B84001B3C85 /* ChallengeConstent02.swift in Sources */,
+				04BE76CD2ABD2FE0003753CE /* ViewControllerOperator.swift in Sources */,
+				040CD8592ADF649200C6CE39 /* ViewControllerFilter.swift in Sources */,
 				0489FCE22AAADE5E00257372 /* AppDelegate.swift in Sources */,
 				0489FCFB2AAAF08100257372 /* ViewControllerCombine.swift in Sources */,
+				04B050472ABAA32C001B3C85 /* MainModel.swift in Sources */,
+				040CD85B2AE0BFB800C6CE39 /* ViewControllerCombineOperator.swift in Sources */,
 				0489FCE42AAADE5E00257372 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
