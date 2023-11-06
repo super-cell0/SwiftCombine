@@ -11,6 +11,7 @@
 		040CD85B2AE0BFB800C6CE39 /* ViewControllerCombineOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CD85A2AE0BFB800C6CE39 /* ViewControllerCombineOperator.swift */; };
 		041AD63D2AF38D5C00D62F6F /* VCSequenceOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AD63C2AF38D5C00D62F6F /* VCSequenceOperators.swift */; };
 		0427F0AB2ADEAE88002916FD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427F0AA2ADEAE88002916FD /* Common.swift */; };
+		046AC4C02AF91DA000F9C6AD /* VCNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AC4BF2AF91DA000F9C6AD /* VCNetworking.swift */; };
 		0489FCE22AAADE5E00257372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489FCE12AAADE5E00257372 /* AppDelegate.swift */; };
 		0489FCE42AAADE5E00257372 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489FCE32AAADE5E00257372 /* SceneDelegate.swift */; };
 		0489FCE62AAADE5E00257372 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489FCE52AAADE5E00257372 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 		040CD85A2AE0BFB800C6CE39 /* ViewControllerCombineOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCombineOperator.swift; sourceTree = "<group>"; };
 		041AD63C2AF38D5C00D62F6F /* VCSequenceOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCSequenceOperators.swift; sourceTree = "<group>"; };
 		0427F0AA2ADEAE88002916FD /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		046AC4BF2AF91DA000F9C6AD /* VCNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCNetworking.swift; sourceTree = "<group>"; };
 		0489FCDE2AAADE5E00257372 /* SwiftCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0489FCE12AAADE5E00257372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0489FCE32AAADE5E00257372 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				040CD8582ADF649200C6CE39 /* ViewControllerFilter.swift */,
 				040CD85A2AE0BFB800C6CE39 /* ViewControllerCombineOperator.swift */,
 				041AD63C2AF38D5C00D62F6F /* VCSequenceOperators.swift */,
+				046AC4BF2AF91DA000F9C6AD /* VCNetworking.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				04B050492ABB2B84001B3C85 /* ChallengeConstent02.swift in Sources */,
 				04BE76CD2ABD2FE0003753CE /* ViewControllerOperator.swift in Sources */,
 				040CD8592ADF649200C6CE39 /* ViewControllerFilter.swift in Sources */,
+				046AC4C02AF91DA000F9C6AD /* VCNetworking.swift in Sources */,
 				0489FCE22AAADE5E00257372 /* AppDelegate.swift in Sources */,
 				0489FCFB2AAAF08100257372 /* ViewControllerCombine.swift in Sources */,
 				04B050472ABAA32C001B3C85 /* MainModel.swift in Sources */,
