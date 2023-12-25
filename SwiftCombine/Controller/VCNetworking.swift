@@ -21,7 +21,7 @@ extension ViewController {
     
     func demoRequest() {
         guard let url = URL(string: "https://mysite.com/mydata.json") else { return }
-        let subsscription = URLSession.shared
+        let _ = URLSession.shared
             .dataTaskPublisher(for: url)
             .map(\.data)
             .decode(type: Car.self, decoder: JSONDecoder())
@@ -46,16 +46,22 @@ extension ViewController {
         let queue = DispatchQueue.main
         var counter = 0
         
-        let cancellable = queue.schedule(after: queue.now, interval: .seconds(1)) {
+        _ = queue.schedule(after: queue.now, interval: .seconds(1)) {
             source.send(counter)
             counter += 1
         }
         
-        let subscrption = source.sink(receiveValue: {print($0)})
+        _ = source.sink(receiveValue: {print($0)})
     }
     
     func demoTimer() {
-        
+        _ = Timer
+            .publish(every: 1.0, on: .main, in: .common)
+            .autoconnect()
+            .scan(0) { counter, _ in
+                counter + 1
+            }
+            .sink(receiveValue: { print($0)})
     }
     
     
